@@ -1,0 +1,36 @@
+{
+  "grammars": [
+    {
+      "name": "netlogo",
+      "camelcase": "NetLogo",
+      "scope": "source.netlogo",
+      "file-types": [
+        ".netlogo"
+      ],
+      "injection-regex": "^netlogo$"
+    }
+  ],
+  "metadata": {
+    "version": "0.1.0",
+    "license": "MIT",
+    "description": "A TreeSitter parser for the NetLogo language",
+    "authors": [
+      {
+        "name": "Dan O'Brien",
+        "email": "dob9601@gmail.com",
+        "url": "https://danielobr.ie/n"
+      }
+    ],
+    "links": {
+      "repository": "https://github.com/tree-sitter/tree-sitter-netlogo"
+    }
+  },
+  "bindings": {
+    "c": true,
+    "go": true,
+    "node": true,
+    "python": true,
+    "rust": true,
+    "swift": true
+  }
+}
